@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def test_get():
-    return "success and welcome", 200
+    return "success and welcome 12345", 200
 
 
 @app.route("/", methods=["POST"])
